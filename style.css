@@ -1,7 +1,7 @@
 .grid-layout{
     display: grid;
     grid-template-columns: 1fr 2.5fr;
-    grid-template-rows: 1fr 4.5fr 0.5fr;
+    grid-template-rows: 0.5fr 4.5fr 0.5fr;
     gap: 50px;
     height: 100vh;
 }
@@ -10,15 +10,16 @@
 /* header section */
 #header{
     grid-column: span 2;
+    border-bottom: 1px solid black;
 }
 
 .header-container{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
     margin-inline: 8rem;
-
+    height: 100%;
 }
+
 .navbar-container{
     display: flex;
     gap: 10px;
@@ -29,7 +30,6 @@
 #sidebar{
     grid-column: span 1;   
     background-color: green;
-
 }
 
 #body{
