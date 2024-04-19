@@ -6,14 +6,13 @@
     height: 100vh;
 }
 
-#navbar-section{
+#header{
     grid-column: span 2;
 }
 
 #sidebar{
     grid-column: span 1;
 }
-
 
 #body{
     grid-column: span 1;
