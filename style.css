@@ -27,11 +27,37 @@
 }
 
 
+/* sidebar section */
+
 #sidebar{
     grid-column: span 1;   
     background-color: green;
 }
 
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+}
+
+.sidebar-container > img{
+    width: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.sidebar-container > p{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar-container  li{
+    margin-bottom: 10px;
+}
+
+
+
+/* body section */
 #body{
     grid-column: span 1;
     background-color: yellow;
