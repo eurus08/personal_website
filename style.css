@@ -60,10 +60,13 @@
 
 
 /* body section */
+
 #body{
     grid-column: span 1;
     background-color: yellow;
 }
+
+/* main */
 .main-part{
     margin-right: 8rem;
     /* display: flex; */
@@ -78,6 +81,18 @@
     font-size: larger;
     text-align: justify;
 }
+
+/* featurs */
+.features-part{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    gap: 100px;
+}
+.features-item{
+    text-align: left;
+}
+
 
 
 /* footer section */
