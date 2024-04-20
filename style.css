@@ -50,6 +50,7 @@
 .sidebar-container > p{
     margin: 0px;
     padding: 0px;
+    text-align: justify;
 }
 .sidebar-container  li{
     margin-bottom: 10px;
