@@ -97,9 +97,16 @@
 
 
 /* footer section */
-#footer{
+#footer-sec{
     grid-column: span 2;
-    background-color: black;
+    background-color: brown;
+}
+footer{
+    display: flex;
+    color: white;
+    margin-left: 8rem;
+    height: 100%;
+    align-items: center;
 }
 
 
