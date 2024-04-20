@@ -1,7 +1,7 @@
 .grid-layout{
     display: grid;
     grid-template-columns: 1fr 2.5fr;
-    grid-template-rows: 0.5fr 4.5fr 0.5fr;
+    grid-template-rows: 80px auto 100px;
     gap: 50px;
     /* height: 100vh; */
 }
@@ -17,6 +17,7 @@
 .header-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-inline: 8rem;
     height: 100%;
 }
