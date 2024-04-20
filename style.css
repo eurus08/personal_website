@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 2.5fr;
     grid-template-rows: 0.5fr 4.5fr 0.5fr;
     gap: 50px;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 
@@ -11,6 +11,7 @@
 #header{
     grid-column: span 2;
     border-bottom: 1px solid black;
+    margin: 0px;
 }
 
 .header-container{
@@ -62,9 +63,24 @@
 #body{
     grid-column: span 1;
     background-color: yellow;
-
+}
+.main-part{
+    margin-right: 8rem;
+    /* display: flex; */
+}
+.main-part  img{
+    width: 20rem;
+    float: right;
+    margin: 25px;
+    border-radius: 5%;
+}
+.text{
+    font-size: larger;
+    text-align: justify;
 }
 
+
+/* footer section */
 #footer{
     grid-column: span 2;
     background-color: black;
