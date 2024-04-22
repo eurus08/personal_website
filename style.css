@@ -79,7 +79,7 @@
     border-radius: 5%;
 }
 .text{
-    font-size: larger;
+    font-size: 1.4rem;
     text-align: justify;
 }
 
@@ -89,7 +89,7 @@
     margin-top: 5rem;
     justify-content: center;
     gap: 100px;
-}
+} 
 .features-item{
     text-align: left;
 }
