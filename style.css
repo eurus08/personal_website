@@ -50,9 +50,14 @@
     margin: 5px;
 }
 .sidebar-container > p{
-    margin: 0px;
+    margin: 0px 0px 15px 0px;
     padding: 0px;
     text-align: justify;
+}
+.sidebar-container > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 .sidebar-container  li{
     margin-bottom: 10px;
