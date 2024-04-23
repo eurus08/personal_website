@@ -88,12 +88,28 @@
     display: flex;
     margin-top: 5rem;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
+    width: 100%;
 } 
 .features-item{
     text-align: left;
+    flex-basis: 250px;
 }
+.features-item ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.features-item li{
+    margin-bottom: 10px;
 
+}
+.features-item .gig{
+    font-weight: 900;
+}
+.features-item .department{
+    font-style: italic;
+}
 
 
 /* footer section */
